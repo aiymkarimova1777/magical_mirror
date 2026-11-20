@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  background: #bae6fd;
+}
+
+@keyframes cloud-move {
+  from { transform: translateX(-200px); }
+  to { transform: translateX(calc(100vw + 200px)); }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 4s ease-in-out infinite;
+}
+
+canvas {
+  touch-action: none;
+}

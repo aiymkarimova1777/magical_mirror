@@ -1,0 +1,7 @@
+{
+  "name": "or of Magical Mirror",
+  "description": "An interactive motion-controlled balloon popping game using MediaPipe for pose tracking and Gemini AI for live sports commentary.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
